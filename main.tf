@@ -13,5 +13,6 @@ resource "aws_lightsail_instance" "test-server" {
     Name = "test-server"
     env  = "dev"
     Team = "Infra"
+    Owner = "DevOps"
   }
 }
